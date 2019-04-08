@@ -27,6 +27,11 @@
 - New Entity/Repository creation/generation
 - Service creation/generation (includes Unit tests)
 - Controller/Action creation/generation (includes Unit tests)
+
+---
+
+### List of possible sub-tasks
+
 - Automated tests (integration, API etc...)
 - Additional Unit tests
 - Manual tests execution (scripts)
@@ -73,6 +78,11 @@
 - Sub-tasks make it easy to program in parallel
 - Impact Analysis and Test strategy are done by developers and reviewed by QS prior to coding
 - Sub-tasks are merged into the feature branch as they're done => available to other developers working on the same branch w/o impact on the trunk
+
+---
+
+### Pros
+
 - No need to squash when merging to the feature branch => keeps history easy to follow
 - Squashing before merging into trunk makes history compact, and it's easier to cherry-pick things
 - Devs are more implicated into testing what the team is doing
