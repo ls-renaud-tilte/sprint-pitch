@@ -91,10 +91,20 @@
 
 ---
 
+### Pros
+
+- Small sub-tasks = small code reviews = move quickly
+- Early analysis = less risk to get big changes required in code review
+- Final code review is just an overview of the code since sub-tasks PRs have been reviewed
+
+---
+
 ### Cons
 
 - Takes a lot of time during sprint planning
 - Requires a good knowledge of the code base to be able to know in advance what's involved
 - Requires all sub-tasks to be created before the sprint starts to get a proper burndown
 - Branch manipulation can be tricky
+- Final code review may still be bottle necks
+- Works well with features, not that well for bugs (depends on incertainty)
 
